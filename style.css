@@ -1,0 +1,58 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Carter One", sans-serif;
+        background: url(background.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+h1 {
+    text-transform: capitalize;
+    text-shadow: 2px 2px #316cac;
+    font-size: 3rem;
+    color:aliceblue
+}
+
+hr{
+    border-color: #b6d6fd;
+    border-width: 3px;
+    max-width: 65px;
+}
+
+.buffer{
+    height: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background: #004b6e;
+    border-color: #568cc2;
+}
+
+.btn-primary:hover{
+    padding: .7rem 1.5rem;
+    background-color: #04a5c2;
+    border-color: #a8cefa;
+    border-width: 2.5px;
+    color: #01394b;
+}
+
+.btn-size {
+    padding: .5rem 1rem;
+}
